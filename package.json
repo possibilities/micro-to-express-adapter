@@ -1,0 +1,33 @@
+{
+  "name": "micro-to-express-adapter",
+  "description": "Adapts micro.js app to express handler",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/possibilities/micro-to-express-handler"
+  },
+  "author": "Mike Bannister",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/possibilities/micro-to-express-handler/issues"
+  },
+  "homepage": "https://github.com/possibilities/micro-to-express-handler",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test": "echo no tests",
+    "pretest": "standard"
+  },
+  "dependencies": {
+    "micro": "^9.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
