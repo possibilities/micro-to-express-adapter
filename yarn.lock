@@ -770,7 +770,7 @@ lodash@^4.0.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-micro@^9.0.0:
+micro@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/micro/-/micro-9.0.1.tgz#4ef68b8c34ca2a02f5be3416a3b9977489e0d21a"
   dependencies:

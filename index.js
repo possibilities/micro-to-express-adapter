@@ -5,8 +5,9 @@ const micro = require('micro')
 const invokeWithExpressIfNotHandledByMicro = (res, next) => result => (
   // Micro handled the request if the handler returns a result (it will
   // likely be something JSON-parse-able or a Promise instance). Micro also
-  // handled the request if any headers have been sent.
-  result || res.headersSent
+  // handled the request if any headers have been sent or the status
+  // code has been set.
+  !!result || !!res.statusCode || res.headersSent
     // Micro handled it so there's nothing to do
     ? result
     // Pass control back to express

@@ -24,10 +24,9 @@
     "test": "echo no tests",
     "pretest": "standard"
   },
-  "dependencies": {
-    "micro": "^9.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "micro": "^9.0.1",
     "standard": "^10.0.3"
   }
 }
