@@ -1,7 +1,7 @@
 {
   "name": "micro-to-express-adapter",
   "description": "Adapts micro.js app to express handler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/possibilities/micro-to-express-handler"
